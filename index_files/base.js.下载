@@ -1,0 +1,227 @@
+(function(m, f) {
+    var b = null,
+        l = null;
+    var j = null,
+        a = null;
+    var h;
+    var g = $("#nav"),
+        o = $("#slide_nav"),
+        i = $("#social"),
+        e = ["#top", "#news", "#role", "#video", "#feature"];
+    $(f).ready(function() {
+        h = $("body").attr("data-pagename");
+        k();
+        c();
+        p();
+        q();
+        n()
+    });
+    function n() {
+        var r = $(window).scrollTop(),
+            d = $(window).height();
+        $(".animated").each(function(s, v) {
+            var u = $(v),
+                t = u.offset().top;
+            if ((d + r) > t) {
+                u.addClass(u.attr("data-animation"));
+                if (u.attr("data-delay")) {
+                    u.css({
+                        "animation-delay": u.attr("data-delay"),
+                        "-webkit-animation-delay": u.attr("data-delay")
+                    })
+                }
+                if (u.attr("data-duration")) {
+                    u.css({
+                        "animation-duration": u.attr("data-duration"),
+                        "-webkit-animation-duration": u.attr("data-duration")
+                    })
+                }
+            }
+        })
+    }
+    $(window).scroll(function() {
+        n()
+    });
+    function k() {
+        var s = $(window);
+        var d = $("header");
+        var r = $(".gotop");
+        var t = $(".side-window");
+        s.scroll(function() {
+            var y = s.scrollTop();
+            if (y > 25) {
+                d.addClass("fixed")
+            } else {
+                d.removeClass("fixed")
+            }
+            if (h == "home") {
+                for (var w = 0; w < e.length; w++) {
+                    var v = $(m).height(),
+                        x = $(e[w]).offset().top,
+                        u = $(e[w]).height();
+                    if ((x - v / 2) < y && y < (x + u - v / 2)) {
+                        g.removeClass().addClass("nav active_" + (w + 1));
+                        $(".nav a").eq(w).addClass("active").siblings("a").removeClass("active")
+                    }
+                }
+            }
+        });
+        r.click(function() {
+            $("html, body").animate({
+                    scrollTop: "0"
+                },
+                "fast")
+        })
+    }
+    function c() {
+        var d = $(".side-window"),
+            r = $(".sw-close");
+        var s = $(".sw-open");
+        r.click(function() {
+            var t = $(this);
+            d.animate({
+                    right: "-225px"
+                },
+                function() {
+                    s.animate({
+                        right: "-3px"
+                    })
+                })
+        });
+        s.click(function() {
+            var t = $(this);
+            t.animate({
+                    right: "-60px"
+                },
+                function() {
+                    d.animate({
+                        right: "0"
+                    })
+                })
+        })
+    }
+    function p() {
+        b = new Popup("massage_popup", {
+            finish_callback: function() {},
+            open_callback: function() {
+                var d = this;
+                if (!d.data) {
+                    return
+                }
+                d.$content.find("img").attr("src", d.data)
+            },
+            close_callback: function() {
+                var d = this;
+                if (!d.data) {
+                    return
+                }
+                d.data = {};
+                d.reset()
+            }
+        });
+        l = function(d) {
+            if (!b) {
+                return
+            }
+            b.data = d;
+            b.open()
+        };
+        j = new Popup("video_popup", {
+            close_callback: function() {
+                var d = this;
+                d.reset()
+            }
+        });
+        a = function(d, r) {
+            if (!j) {
+                return
+            }
+            if ("undefined" === typeof d || "undefined" === typeof r || r === "") {
+                return
+            }
+            if (d === "video") {
+                j.$content.find("video").addClass("active").attr("src", r)
+            } else {
+                if (d === "youtube") {
+                    r = "https://www.youtube.com/embed/" + r + "?playlist=" + r + "&loop=1&autoplay=1";
+                    j.$content.find("iframe").addClass("active").attr("src", r)
+                } else {
+                    return
+                }
+            }
+            j.open()
+        }
+
+
+
+        //    agepop
+        age_popup = new Popup('age_popup', {
+            finish_callback: function () {
+            },
+            open_callback: function () {
+                var _this = this;
+                if (!_this.data) return;
+                _this.$content.find('img').attr('src', _this.data);
+            },
+            close_callback: function () {
+                var _this = this;
+                if (!_this.data) return;
+                _this.data = {};
+                _this.reset();
+            }
+        });
+    }
+    function q() {
+        $(".btn_play").on("click",
+            function() {
+                var d = $(this).attr("data-video");
+                a("video", src.media + d)
+            });
+        $(".videoList").on("click", ".btn_video",
+            function() {
+                var d = $(this).attr("data-video");
+                a("video", d)
+            });
+        $(".videolist").on("click", ".btn_video",
+            function() {
+                var d = $(this).attr("data-video");
+                a("video", d)
+            });
+        $(".video-swiper").on("click", ".swiper-slide",
+            function() {
+                var d = $(this).attr("data-video");
+                a("video", d)
+            });
+        $(".recommend_list").on("click", "li",
+            function() {
+                var d = $(this).attr("data-video");
+                a("video", d)
+            });
+        $(".swiper-role").on("click", ".role_video",
+            function() {
+                var d = $(this).attr("data-video");
+                a("video", d)
+            });
+        $(".artlist").on("click", "li",
+            function() {
+                var d = $(this).attr("data-src");
+                l(d)
+            });
+        $(".btn_qq").on("click",
+            function() {
+                var d = $(this).attr("data-number"); (function(r, s) {
+                    if (s.test(navigator.userAgent)) {
+                        window.open("mqqwpa://im/chat?chat_type=wpa&uin=" + d + "&version=1&src_type=web&web_src=oicqzone.com")
+                    } else {
+                        window.open("http://wpa.qq.com/msgrd?v=3&uin=" + d + "&site=qq&menu=yes")
+                    }
+                })(window, /Mobile|Windows Phone|Android|iPhone|iPod|BlackBerry|SymbianOS|webOS/i)
+            })
+
+        $('.age16').on('click', function () {
+            age_popup.data = 'https://image.gaeamobile.net/image/20210913/155115/16agetext.png'
+            age_popup.open()
+        })
+
+    }
+})(window, document);

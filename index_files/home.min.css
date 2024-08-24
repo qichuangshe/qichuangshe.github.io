@@ -1,0 +1,3702 @@
+.hide-text {
+	font-size:0;
+	text-indent:-9999px
+}
+header {
+	background:#fff
+}
+.bg_box {
+	overflow:hidden;
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	z-index:0;
+	pointer-events:none
+}
+.bg_box i {
+	display:block
+}
+.bg_box i:nth-child(1) {
+	height:940px;
+	background:url("https://image.gaeamobile.net/image/20200605/103548/bg01.jpg");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:auto auto;
+	background-size:cover
+}
+.bg_box i:nth-child(2) {
+	height:843px;
+	background:url("https://image.gaeamobile.net/image/20200605/103548/bg02.jpg");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:auto auto;
+	background-size:cover
+}
+.bg_box i:nth-child(3) {
+	height:920px;
+	background:url("https://image.gaeamobile.net/image/20200605/103548/bg03.jpg");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:auto auto;
+	background-size:cover
+}
+.bg_box i:nth-child(4) {
+	height:1175px;
+	background:url("https://image.gaeamobile.net/image/20200605/103548/bg04.jpg");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:auto auto;
+	background-size:cover
+}
+.bg_box i:nth-child(5) {
+	height:1437px;
+	background:url("https://image.gaeamobile.net/image/20200605/103548/bg05.jpg");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:auto auto;
+	background-size:cover
+}
+.top-box {
+	position:relative;
+	width:100%;
+	height:940px
+}
+.top-box .area {
+	width:1200px;
+	height:100%;
+	margin:0 auto;
+	position:relative
+}
+.top-box .area .slogon {
+	position:absolute;
+	top:129px;
+	left:0;
+	right:0;
+	bottom:auto;
+	z-index:0;
+	margin:0 auto;
+	width:909px;
+	height:234px;
+	background:url("https://image.gaeamobile.net/image/20200605/103548/slogon.png");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:909px 234px;
+	animation-duration:.5s;
+	-webkit-animation-duration:.5s;
+	opacity:0
+}
+.top-box .area .btn_play {
+	position:absolute;
+	top:auto;
+	left:0;
+	right:0;
+	bottom:254px;
+	z-index:0;
+	width:92px;
+	height:92px;
+	margin:0 auto;
+	background:url("https://image.gaeamobile.net/image/20200605/103548/sprites_home1.png");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:1000px 600px;
+	background-position:-907px 0
+}
+.top-box .area .down_load {
+	width:568px;
+	height:162px;
+	margin:0 auto;
+	position:absolute;
+	top:auto;
+	left:0;
+	right:0;
+	bottom:77px;
+	z-index:0
+}
+.top-box .area .down_load.fadeInUpa .code_bg {
+	opacity:1
+}
+.top-box .area .down_load.fadeInUpa .btn_download {
+	display:block
+}
+.top-box .area .down_load .bg_lft {
+	width:0;
+	height:168px;
+	background:url("https://image.gaeamobile.net/image/20200605/103548/bg_left.png");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:284px 168px;
+	position:absolute;
+	top:0;
+	left:auto;
+	right:284px;
+	bottom:auto;
+	z-index:0;
+	-webkit-animation:fadeWidth 1s 1.5s both;
+	animation:fadeWidth 1s 1.5s both
+}
+@keyframes fadeWidth {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:280px
+}
+}@-moz-keyframes fadeWidth {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:280px
+}
+}@-webkit-keyframes fadeWidth {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:280px
+}
+}@-o-keyframes fadeWidth {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:280px
+}
+}.top-box .area .down_load .bg_rgt {
+	width:0;
+	height:168px;
+	background:url("https://image.gaeamobile.net/image/20200605/103548/bg_rgt.png");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:284px 168px;
+	position:absolute;
+	top:0;
+	left:284px;
+	right:auto;
+	bottom:auto;
+	z-index:0;
+	-webkit-animation:fadeWidth 1s 1.5s both;
+	animation:fadeWidth 1s 1.5s both
+}
+@keyframes fadeWidth {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:464px
+}
+}@-moz-keyframes fadeWidth {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:464px
+}
+}@-webkit-keyframes fadeWidth {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:464px
+}
+}@-o-keyframes fadeWidth {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:464px
+}
+}.top-box .area .down_load .code_bg {
+	opacity:0;
+	width:152px;
+	height:122px;
+	background:url("https://image.gaeamobile.net/image/20200605/103548/sprites_home1.png");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:1000px 600px;
+	background-position:-28px -23px;
+	position:absolute;
+	top:20px;
+	left:28px;
+	right:auto;
+	bottom:auto;
+	z-index:0
+}
+
+.wxqrcode {
+    width: 1.3rem;
+    height: 1.3rem;
+    background: url('http://local.static.com/aotu/image/wxqrcode.jpg');
+    background-size:122px 122px;
+    background-repeat:no-repeat;
+	background-position:center;
+    position: absolute;
+    top: 700px;
+    right: 200px;
+    cursor: pointer;
+}
+
+.top-box .area .down_load .code_bg .code_pic {
+	width:100px;
+	height:100px;
+	display:block;
+	padding:11px 11px
+}
+.top-box .area .down_load .code_bg .code_pic img {
+	max-width:100%
+}
+.top-box .area .down_load .code_bg .code_pic:after {
+	content:"";
+	position:absolute;
+	top:0;
+	left:4px;
+	right:auto;
+	bottom:auto;
+	z-index:0;
+	width:113px;
+	height:100px;
+	overflow:hidden;
+	margin:0 auto;
+	background:url("https://image.gaeamobile.net/image/20200605/103548/code_line.png");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:113px 7px;
+	z-index:2;
+	-webkit-animation:radar 2s cubic-bezier(0.53,0,0.43,0.99) infinite;
+	-moz-animation:radar 2s cubic-bezier(0.53,0,0.43,0.99) infinite;
+	-o-animation:radar 2s cubic-bezier(0.53,0,0.43,0.99) infinite;
+	-ms-animation:radar 2s cubic-bezier(0.53,0,0.43,0.99) infinite;
+	animation:radar 2s cubic-bezier(0.53,0,0.43,0.99) infinite
+}
+@keyframes radar {
+	from {
+	transform:translateY(-50%)
+}
+to {
+	transform:translateY(50%)
+}
+}@-moz-keyframes radar {
+	from {
+	transform:translateY(-50%)
+}
+to {
+	transform:translateY(50%)
+}
+}@-webkit-keyframes radar {
+	from {
+	transform:translateY(-50%)
+}
+to {
+	transform:translateY(50%)
+}
+}@-o-keyframes radar {
+	from {
+	transform:translateY(-50%)
+}
+to {
+	transform:translateY(50%)
+}
+}.top-box .area .btn_download {
+	display:none;
+	background:url("https://image.gaeamobile.net/image/20200605/103548/sprites_home1.png");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:1000px 600px;
+	width:171px;
+	height:51px;
+	-webkit-transition:all .3s;
+	-moz-transition:all .3s;
+	-o-transition:all .3s;
+	-ms-transition:all .3s;
+	transition:all .3s
+}
+.top-box .area .btn_download.btn_app_store {
+	background-position:-192px -26px;
+	position:absolute;
+	top:23px;
+	left:192px;
+	right:auto;
+	bottom:auto;
+	z-index:0
+}
+.top-box .area .btn_download.btn_tap {
+	background-position:-192px -83px;
+	position:absolute;
+	top:80px;
+	left:192px;
+	right:auto;
+	bottom:auto;
+	z-index:0
+}
+.top-box .area .btn_download.btn_pc {
+	background-position:-371px -26px;
+	position:absolute;
+	top:23px;
+	left:371px;
+	right:auto;
+	bottom:auto;
+	z-index:0
+}
+.top-box .area .btn_download.btn_bili {
+	width:172px;
+	background-position:-371px -83px;
+	position:absolute;
+	top:81px;
+	left:371px;
+	right:auto;
+	bottom:auto;
+	z-index:0
+}
+.top-box .area .btn_download:hover {
+	opacity:.85
+}
+.s_1 {
+	position:relative;
+	width:1200px;
+	height:800px;
+	padding-top:43px;
+	margin:0 auto
+}
+.s_1 .title {
+	width:284px;
+	height:103px;
+	margin:0 auto;
+	background:url("https://image.gaeamobile.net/image/20200605/103548/sprites_home1.png");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:1000px 600px;
+	background-position:0 -190px;
+	position:relative
+}
+.s_1 .title::after {
+	display:block;
+	content:"";
+	width:20px;
+	height:20px;
+	margin:0 auto;
+	background:url("https://image.gaeamobile.net/image/20200605/103548/sprites_home1.png");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:1000px 600px;
+	background-position:-980px -107px;
+	position:absolute;
+	top:auto;
+	left:0;
+	right:0;
+	bottom:-30px;
+	z-index:0
+}
+.s_1 .bg_line {
+	width:447px;
+	height:322px;
+	position:absolute;
+	top:473px;
+	left:-117px;
+	right:auto;
+	bottom:auto;
+	z-index:0
+}
+.s_1 .bg_line em {
+	display:block;
+	width:9px;
+	height:9px;
+	background:url("https://image.gaeamobile.net/image/20200605/103548/public.png");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:500px 500px;
+	background-position:-491px -118px;
+	position:absolute;
+	top:152px;
+	left:64px;
+	right:auto;
+	bottom:auto;
+	z-index:0
+}
+.s_1 .bg_line span {
+	background:#bababa
+}
+.s_1 .bg_line span.bl1 {
+	width:64px;
+	height:1px;
+	position:absolute;
+	top:156px;
+	left:auto;
+	right:383px;
+	bottom:auto;
+	z-index:0
+}
+.s_1 .bg_line span.bl2 {
+	width:374px;
+	height:1px;
+	position:absolute;
+	top:156px;
+	left:73px;
+	right:auto;
+	bottom:auto;
+	z-index:0
+}
+.s_1 .bg_line span.bl3 {
+	height:152px;
+	width:1px;
+	position:absolute;
+	top:auto;
+	left:68px;
+	right:auto;
+	bottom:170px;
+	z-index:0
+}
+.s_1 .bg_line span.bl4 {
+	height:161px;
+	width:1px;
+	position:absolute;
+	top:161px;
+	left:68px;
+	right:auto;
+	bottom:auto;
+	z-index:0
+}
+.s_1 .bg_line.fadeInUpa .bl1 {
+	-webkit-animation:fadeWidth1 1.5s 1s both;
+	animation:fadeWidth1 1.5s 1s both
+}
+@keyframes fadeWidth1 {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:64px
+}
+}@-moz-keyframes fadeWidth1 {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:64px
+}
+}@-webkit-keyframes fadeWidth1 {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:64px
+}
+}@-o-keyframes fadeWidth1 {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:64px
+}
+}.s_1 .bg_line.fadeInUpa .bl2 {
+	-webkit-animation:fadeWidth2 1.5s 1s both;
+	animation:fadeWidth2 1.5s 1s both
+}
+@keyframes fadeWidth2 {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:374px
+}
+}@-moz-keyframes fadeWidth2 {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:374px
+}
+}@-webkit-keyframes fadeWidth2 {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:374px
+}
+}@-o-keyframes fadeWidth2 {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:374px
+}
+}.s_1 .bg_line.fadeInUpa .bl3 {
+	-webkit-animation:fadeHeight1 1.5s 1s both;
+	animation:fadeHeight1 1.5s 1s both
+}
+@keyframes fadeHeight1 {
+	from {
+	opacity:0;
+	height:0
+}
+to {
+	opacity:1;
+	height:152px
+}
+}@-moz-keyframes fadeHeight1 {
+	from {
+	opacity:0;
+	height:0
+}
+to {
+	opacity:1;
+	height:152px
+}
+}@-webkit-keyframes fadeHeight1 {
+	from {
+	opacity:0;
+	height:0
+}
+to {
+	opacity:1;
+	height:152px
+}
+}@-o-keyframes fadeHeight1 {
+	from {
+	opacity:0;
+	height:0
+}
+to {
+	opacity:1;
+	height:152px
+}
+}.s_1 .bg_line.fadeInUpa .bl4 {
+	-webkit-animation:fadeHeight2 1.5s 1s both;
+	animation:fadeHeight2 1.5s 1s both
+}
+@keyframes fadeHeight2 {
+	from {
+	opacity:0;
+	height:0
+}
+to {
+	opacity:1;
+	height:161px
+}
+}@-moz-keyframes fadeHeight2 {
+	from {
+	opacity:0;
+	height:0
+}
+to {
+	opacity:1;
+	height:161px
+}
+}@-webkit-keyframes fadeHeight2 {
+	from {
+	opacity:0;
+	height:0
+}
+to {
+	opacity:1;
+	height:161px
+}
+}@-o-keyframes fadeHeight2 {
+	from {
+	opacity:0;
+	height:0
+}
+to {
+	opacity:1;
+	height:161px
+}
+}.s_1 .bg_line2 {
+	width:322px;
+	height:322px;
+	position:absolute;
+	top:372px;
+	left:auto;
+	right:-93px;
+	bottom:auto;
+	z-index:0
+}
+.s_1 .bg_line2 em {
+	display:block;
+	width:9px;
+	height:9px;
+	background:url("https://image.gaeamobile.net/image/20200605/103548/public.png");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:500px 500px;
+	background-position:-491px -118px;
+	position:absolute;
+	top:auto;
+	left:auto;
+	right:63px;
+	bottom:57px;
+	z-index:0
+}
+.s_1 .bg_line2 span {
+	background:#bababa
+}
+.s_1 .bg_line2 span.bl1 {
+	width:250px;
+	height:1px;
+	position:absolute;
+	top:260px;
+	left:auto;
+	right:72px;
+	bottom:auto;
+	z-index:0
+}
+.s_1 .bg_line2 span.bl2 {
+	width:63px;
+	height:1px;
+	position:absolute;
+	top:260px;
+	left:260px;
+	right:auto;
+	bottom:auto;
+	z-index:0
+}
+.s_1 .bg_line2 span.bl3 {
+	height:256px;
+	width:1px;
+	position:absolute;
+	top:auto;
+	left:auto;
+	right:67px;
+	bottom:66px;
+	z-index:0
+}
+.s_1 .bg_line2 span.bl4 {
+	height:57px;
+	width:1px;
+	position:absolute;
+	top:265px;
+	left:auto;
+	right:67px;
+	bottom:auto;
+	z-index:0
+}
+.s_1 .bg_line2.fadeInUpa .bl1 {
+	-webkit-animation:fadeWidtha1 1.5s 1s both;
+	animation:fadeWidtha1 1.5s 1s both
+}
+@keyframes fadeWidtha1 {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:250px
+}
+}@-moz-keyframes fadeWidtha1 {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:250px
+}
+}@-webkit-keyframes fadeWidtha1 {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:250px
+}
+}@-o-keyframes fadeWidtha1 {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:250px
+}
+}.s_1 .bg_line2.fadeInUpa .bl2 {
+	-webkit-animation:fadeWidtha2 1.5s 1s both;
+	animation:fadeWidtha2 1.5s 1s both
+}
+@keyframes fadeWidtha2 {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:63px
+}
+}@-moz-keyframes fadeWidtha2 {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:63px
+}
+}@-webkit-keyframes fadeWidtha2 {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:63px
+}
+}@-o-keyframes fadeWidtha2 {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:63px
+}
+}.s_1 .bg_line2.fadeInUpa .bl3 {
+	-webkit-animation:fadeHeighta1 1.5s 1s both;
+	animation:fadeHeighta1 1.5s 1s both
+}
+@keyframes fadeHeighta1 {
+	from {
+	opacity:0;
+	height:0
+}
+to {
+	opacity:1;
+	height:256px
+}
+}@-moz-keyframes fadeHeighta1 {
+	from {
+	opacity:0;
+	height:0
+}
+to {
+	opacity:1;
+	height:256px
+}
+}@-webkit-keyframes fadeHeighta1 {
+	from {
+	opacity:0;
+	height:0
+}
+to {
+	opacity:1;
+	height:256px
+}
+}@-o-keyframes fadeHeighta1 {
+	from {
+	opacity:0;
+	height:0
+}
+to {
+	opacity:1;
+	height:256px
+}
+}.s_1 .bg_line2.fadeInUpa .bl4 {
+	-webkit-animation:fadeHeighta2 1.5s 1s both;
+	animation:fadeHeighta2 1.5s 1s both
+}
+@keyframes fadeHeighta2 {
+	from {
+	opacity:0;
+	height:0
+}
+to {
+	opacity:1;
+	height:57px
+}
+}@-moz-keyframes fadeHeighta2 {
+	from {
+	opacity:0;
+	height:0
+}
+to {
+	opacity:1;
+	height:57px
+}
+}@-webkit-keyframes fadeHeighta2 {
+	from {
+	opacity:0;
+	height:0
+}
+to {
+	opacity:1;
+	height:57px
+}
+}@-o-keyframes fadeHeighta2 {
+	from {
+	opacity:0;
+	height:0
+}
+to {
+	opacity:1;
+	height:57px
+}
+}.swiper-newspic-box {
+	position:relative;
+	width:1170px;
+	height:399px;
+	margin:44px auto 0
+}
+.swiper-newspic-box::before {
+	content:"";
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	z-index:0;
+	width:1170px;
+	height:399px;
+	background:url("https://image.gaeamobile.net/image/20200605/103548/swiper_news_frame.png");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:1170px 399px;
+	margin:auto
+}
+.swiper-newspic-box .swiper-newspic {
+	position:relative;
+	width:1140px;
+	height:369px;
+	margin:0 auto;
+	padding:15px 0;
+	overflow:hidden
+}
+.swiper-newspic-box .swiper-newspic a {
+	width:1140px;
+	height:369px
+}
+.swiper-newspic-box .swiper-newspic a img {
+	width:100%;
+	height:100%
+}
+.swiper-newspic-box .swiper-pagination {
+	bottom:-48px;
+	left:0;
+	right:0
+}
+.swiper-newspic-box .swiper-pagination .swiper-pagination-bullet {
+	margin:0 5px;
+	width:10px;
+	height:10px;
+	opacity:1;
+	background:#1b1b1b;
+	border-radius:0
+}
+.swiper-newspic-box .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+	background:#ffb400
+}
+.swiper-newspic-box .tool {
+	width:100px;
+	height:51px;
+	margin:0 auto;
+	position:absolute;
+	top:auto;
+	left:0;
+	right:0;
+	bottom:-19px;
+	z-index:1
+}
+.swiper-newspic-box .swiper_num {
+	display:block;
+	background:#1b1b1b;
+	width:100%;
+	height:27px;
+	text-align:center;
+	line-height:27px;
+	color:#fff;
+	font-size:20px;
+	font-family:"MFYueHei_Noncommercial-Regular";
+	letter-spacing:3px
+}
+.swiper-newspic-box .swiper-button-prev {
+	width:30px;
+	height:25px;
+	background:url("https://image.gaeamobile.net/image/20200605/103548/public.png");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:500px 500px;
+	background-position:-40px -157px;
+	opacity:1;
+	margin-top:0;
+	left:0
+}
+.swiper-newspic-box .swiper-button-prev:hover {
+	background-position:0 -157px
+}
+.swiper-newspic-box .swiper-button-next {
+	width:30px;
+	height:25px;
+	background:url("https://image.gaeamobile.net/image/20200605/103548/public.png");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:500px 500px;
+	background-position:-79px -157px;
+	margin-top:0;
+	right:0
+}
+.swiper-newspic-box .swiper-button-next:hover {
+	background-position:-118px -157px
+}
+.swiper-newspic-box .btn-news-more {
+	position:absolute;
+	top:-20px;
+	left:auto;
+	right:23px;
+	bottom:auto;
+	z-index:0;
+	width:25px;
+	height:25px;
+	background:#1b1b1b
+}
+.swiper-newspic-box .btn-news-more::after {
+	content:"";
+	position:absolute;
+	top:5px;
+	left:auto;
+	right:5px;
+	bottom:auto;
+	z-index:0;
+	width:15px;
+	height:15px;
+	margin:0 auto;
+	background:url("https://image.gaeamobile.net/image/20200605/103548/sprites_home1.png");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:1000px 600px;
+	background-position:-597px -5px;
+	-webkit-transition:all .6s;
+	-moz-transition:all .6s;
+	-o-transition:all .6s;
+	-ms-transition:all .6s;
+	transition:all .6s
+}
+.swiper-newspic-box .btn-news-more:hover::after {
+	-webkit-transform:rotate(180deg);
+	-moz-transform:rotate(180deg);
+	-o-transform:rotate(180deg);
+	-ms-transform:rotate(180deg);
+	transform:rotate(180deg)
+}
+.news-box {
+	position:relative;
+	z-index:1
+}
+.news-box .inner {
+	margin:60px auto 0;
+	width:1143px;
+	height:138px;
+	overflow:hidden
+}
+.news-box .inner::after {
+	content:"";
+	position:absolute;
+	top:55px;
+	left:0;
+	right:0;
+	bottom:0;
+	z-index:0;
+	width:1px;
+	height:23px;
+	margin:0 auto;
+	background:#000
+}
+.news-nav {
+	width:355px;
+	height:116px;
+	position:absolute;
+	top:9px;
+	left:393px;
+	right:auto;
+	bottom:auto;
+	z-index:3
+}
+.news-nav ul li {
+	float:left;
+	width:161px;
+	height:53px;
+	cursor:pointer;
+	font-size:0;
+	background:url("https://image.gaeamobile.net/image/20200605/103548/sprites_home1.png");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:1000px 600px;
+	-webkit-transition:all .3s;
+	-moz-transition:all .3s;
+	-o-transition:all .3s;
+	-ms-transition:all .3s;
+	transition:all .3s;
+	position:relative
+}
+.news-nav ul li::after {
+	content:"";
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:auto;
+	z-index:-1;
+	width:157px;
+	height:53px;
+	margin:0 auto;
+	background:url("https://image.gaeamobile.net/image/20200605/103548/sprites_home1.png");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:1000px 600px;
+	background-position:-159px -453px;
+	-webkit-transition:all .6s;
+	-moz-transition:all .6s;
+	-o-transition:all .6s;
+	-ms-transition:all .6s;
+	transition:all .6s
+}
+.news-nav ul li:nth-child(1) {
+	background-position:0 -323px;
+	margin-bottom:10px;
+	margin-right:33px
+}
+.news-nav ul li:nth-child(2) {
+	background-position:-194px -323px;
+	margin-bottom:10px
+}
+.news-nav ul li:nth-child(3) {
+	background-position:0 -386px;
+	margin-right:33px
+}
+.news-nav ul li:nth-child(4) {
+	background-position:-194px -386px
+}
+.news-nav ul li:hover::after,.news-nav ul li.active::after {
+	background-position:-2px -453px
+}
+.news-con {
+	display:inline-block;
+	position:relative;
+	width:1145px;
+	height:138px;
+	font-size:16px;
+	overflow:hidden;
+	margin-top:3px
+}
+.news-con .newsitem {
+	position:absolute;
+	top:0;
+	left:0;
+	right:auto;
+	bottom:auto;
+	z-index:0;
+	width:100%;
+	opacity:0
+}
+.news-con .newsitem.active {
+	opacity:1;
+	z-index:1
+}
+.news-con ul li {
+	float:left;
+	width:375px;
+	height:43px;
+	line-height:43px;
+	overflow:hidden;
+	border-bottom:1px dotted #afafaf;
+	box-sizing:border-box;
+	color:#245476;
+	-webkit-transition:color .3s;
+	-moz-transition:color .3s;
+	-o-transition:color .3s;
+	-ms-transition:color .3s;
+	transition:color .3s
+}
+.news-con ul li a {
+	float:left;
+	width:310px;
+	height:100%;
+	color:#2a2a2a;
+	text-indent:-8px;
+	font-size:18px;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	-webkit-transition:color .3s;
+	-moz-transition:color .3s;
+	-o-transition:color .3s;
+	-ms-transition:color .3s;
+	transition:color .3s;
+	font-family:"SOURCEHANSANSCN-MEDIUM"
+}
+.news-con ul li span {
+	float:right;
+	color:#2a2a2a
+}
+.news-con ul li:hover,.news-con ul li.active {
+	color:#ffb400
+}
+.news-con ul li:hover a,.news-con ul li.active a,.news-con ul li:hover span,.news-con ul li.active span {
+	color:#ffb400
+}
+.news-con ul li:last-child {
+	border-bottom:0
+}
+.news-con ul li:nth-child(odd) {
+	margin-right:390px
+}
+.s_2 {
+	position:relative;
+	height:920px;
+	overflow:hidden
+}
+.s_2 .inner {
+	height:100%
+}
+.s_2 .inner .title {
+	width:309px;
+	height:103px;
+	margin:0 auto;
+	background:url("https://image.gaeamobile.net/image/20200605/103548/sprites_home1.png");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:1000px 600px;
+	background-position:-306px -190px;
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:auto;
+	z-index:1
+}
+.s_2 .inner .title::after {
+	display:block;
+	content:"";
+	width:20px;
+	height:20px;
+	margin:0 auto;
+	background:url("https://image.gaeamobile.net/image/20200605/103548/sprites_home1.png");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:1000px 600px;
+	background-position:-980px -107px;
+	position:absolute;
+	top:auto;
+	left:0;
+	right:0;
+	bottom:-30px;
+	z-index:0
+}
+.swiper-role-box {
+	width:1200px;
+	height:100%;
+	position:relative;
+	margin:0 auto
+}
+.swiper-role-box .swiper-role {
+	overflow:hidden;
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:auto;
+	z-index:1
+}
+.swiper-role-box .swiper-role .swiper-button-prev {
+	width:30px;
+	height:25px;
+	background:url("https://image.gaeamobile.net/image/20200605/103548/public.png");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:500px 500px;
+	background-position:-40px -157px;
+	opacity:1;
+	margin-top:0;
+	right:52px;
+	left:auto;
+	top:406px
+}
+.swiper-role-box .swiper-role .swiper-button-prev:hover {
+	background-position:0 -157px
+}
+.swiper-role-box .swiper-role .swiper-button-next {
+	width:30px;
+	height:25px;
+	background:url("https://image.gaeamobile.net/image/20200605/103548/public.png");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:500px 500px;
+	background-position:-79px -157px;
+	margin-top:0;
+	right:0;
+	top:406px
+}
+.swiper-role-box .swiper-role .swiper-button-next:hover {
+	background-position:-118px -157px
+}
+.swiper-role-box .con {
+	width:100%;
+	height:100%;
+	position:relative
+}
+.swiper-role-box .con .role_big {
+	width:1014px;
+	height:913px;
+	position:absolute;
+	top:auto;
+	left:auto;
+	right:90px;
+	bottom:0;
+	z-index:0;
+	display:inline-block;
+	margin:0 auto
+}
+.swiper-role-box .con .role_big img {
+	position:absolute;
+	z-index:1
+}
+.swiper-role-box .con .skill {
+	width:214px;
+	height:109px;
+	position:absolute;
+	top:464px;
+	left:auto;
+	right:118px;
+	bottom:auto;
+	z-index:0
+}
+.swiper-role-box .con .skill::after {
+	content:"";
+	position:absolute;
+	top:0;
+	left:auto;
+	right:0;
+	bottom:auto;
+	z-index:0;
+	width:214px;
+	height:109px;
+	margin:0 auto;
+	background:url("https://image.gaeamobile.net/image/20200605/103548/bg_kill.png");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:214px 109px
+}
+.swiper-role-box .con .skill span {
+	display:block;
+	width:80px;
+	float:left;
+	text-align:justify;
+	line-height:24px;
+	color:#393939;
+	font-size:14px;
+	margin-top:90px;
+	font-family:"SOURCEHANSANSCN-MEDIUM"
+}
+.swiper-role-box .con .skill span:nth-child(1) {
+	margin-right:20px
+}
+.swiper-role-box .con .role_video {
+	position:absolute;
+	top:auto;
+	left:auto;
+	right:256px;
+	bottom:165px;
+	z-index:0;
+	margin:0 auto;
+	cursor:pointer;
+	width:147px;
+	height:151px
+}
+.swiper-role-box .con .role_video span {
+	display:block;
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:auto;
+	z-index:0;
+	margin:0 auto
+}
+.swiper-role-box .con .role_video span:nth-child(1) {
+	width:147px;
+	height:151px;
+	background:url("https://image.gaeamobile.net/image/20200605/103548/btn_role_video01.png");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:147px 151px;
+	animation:rotate 4s linear infinite;
+	-webkit-animation:rotate 4s linear infinite
+}
+.swiper-role-box .con .role_video span:nth-child(2) {
+	width:147px;
+	height:151px;
+	background:url("https://image.gaeamobile.net/image/20200605/103548/btn_role_video02.png");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:147px 151px
+}
+.swiper-role-box .con .bg_line {
+	width:194px;
+	height:28px;
+	position:absolute;
+	top:auto;
+	left:auto;
+	right:380px;
+	bottom:270px;
+	z-index:0
+}
+.swiper-role-box .con .bg_line span.bl1 {
+	width:84px;
+	height:5px;
+	background:url("https://image.gaeamobile.net/image/20200605/103548/role_line01.png");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:84px 5px;
+	background-position:right;
+	position:absolute;
+	top:1px;
+	left:auto;
+	right:0;
+	bottom:auto;
+	z-index:0
+}
+.swiper-role-box .con .bg_line span.bl2 {
+	width:25px;
+	height:25px;
+	background:url("https://image.gaeamobile.net/image/20200605/103548/role_line02.png");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:25px 25px;
+	position:absolute;
+	top:4px;
+	left:auto;
+	right:18px;
+	bottom:auto;
+	z-index:0
+}
+.swiper-role-box .con .bg_line span.bl3 {
+	width:121px;
+	height:2px;
+	background:url("https://image.gaeamobile.net/image/20200605/103548/role_line03.png");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:121px 2px;
+	background-position:right;
+	position:absolute;
+	top:26px;
+	left:auto;
+	right:42px;
+	bottom:auto;
+	z-index:0
+}
+.swiper-role-box .con .bg_line2 {
+	width:246px;
+	height:91px;
+	position:absolute;
+	top:470px;
+	left:auto;
+	right:72px;
+	bottom:auto;
+	z-index:0
+}
+.swiper-role-box .con .bg_line2 em {
+	opacity:0;
+	display:block;
+	width:9px;
+	height:9px;
+	background:url("https://image.gaeamobile.net/image/20200605/103548/public.png");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:500px 500px;
+	background-position:-491px -118px;
+	position:absolute;
+	top:58px;
+	left:auto;
+	right:73px;
+	bottom:auto;
+	z-index:0
+}
+.swiper-role-box .con .bg_line2 span {
+	background:#bababa
+}
+.swiper-role-box .con .bg_line2 span.bl1 {
+	width:164px;
+	height:1px;
+	position:absolute;
+	top:62px;
+	left:auto;
+	right:82px;
+	bottom:auto;
+	z-index:0
+}
+.swiper-role-box .con .bg_line2 span.bl2 {
+	width:73px;
+	height:1px;
+	position:absolute;
+	top:62px;
+	left:173px;
+	right:auto;
+	bottom:auto;
+	z-index:0
+}
+.swiper-role-box .con .bg_line2 span.bl3 {
+	height:58px;
+	width:1px;
+	position:absolute;
+	top:auto;
+	left:auto;
+	right:77px;
+	bottom:33px;
+	z-index:0
+}
+.swiper-role-box .con .bg_line2 span.bl4 {
+	height:24px;
+	width:1px;
+	position:absolute;
+	top:67px;
+	left:auto;
+	right:77px;
+	bottom:auto;
+	z-index:0
+}
+.swiper-role-box .swiper-slide-active .con .bg_line.fadeInUpa .bl1 {
+	-webkit-animation:fadeWidthr1 1s 1s both;
+	animation:fadeWidthr1 1s 1s both
+}
+@keyframes fadeWidthr1 {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:84px
+}
+}@-moz-keyframes fadeWidthr1 {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:84px
+}
+}@-webkit-keyframes fadeWidthr1 {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:84px
+}
+}@-o-keyframes fadeWidthr1 {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:84px
+}
+}.swiper-role-box .swiper-slide-active .con .bg_line.fadeInUpa .bl2 {
+	-webkit-animation:fadeHeightr1 1s 1s both;
+	animation:fadeHeightr1 1s 1s both
+}
+@keyframes fadeHeightr1 {
+	from {
+	opacity:0;
+	height:0
+}
+to {
+	opacity:1;
+	height:25px
+}
+}@-moz-keyframes fadeHeightr1 {
+	from {
+	opacity:0;
+	height:0
+}
+to {
+	opacity:1;
+	height:25px
+}
+}@-webkit-keyframes fadeHeightr1 {
+	from {
+	opacity:0;
+	height:0
+}
+to {
+	opacity:1;
+	height:25px
+}
+}@-o-keyframes fadeHeightr1 {
+	from {
+	opacity:0;
+	height:0
+}
+to {
+	opacity:1;
+	height:25px
+}
+}.swiper-role-box .swiper-slide-active .con .bg_line.fadeInUpa .bl3 {
+	-webkit-animation:fadeWidthr2 1s 1s both;
+	animation:fadeWidthr2 1s 1s both
+}
+@keyframes fadeWidthr2 {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:121px
+}
+}@-moz-keyframes fadeWidthr2 {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:121px
+}
+}@-webkit-keyframes fadeWidthr2 {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:121px
+}
+}@-o-keyframes fadeWidthr2 {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:121px
+}
+}.swiper-role-box .swiper-slide-active .con .bg_line2.fadeInUpa em {
+	-webkit-animation:fadeIn .2s .5s both;
+	animation:fadeIn .2s .5s both
+}
+.swiper-role-box .swiper-slide-active .con .bg_line2.fadeInUpa .bl1 {
+	-webkit-animation:fadeWidthw1 1.5s 1s both;
+	animation:fadeWidthw1 1.5s 1s both
+}
+@keyframes fadeWidthw1 {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:164px
+}
+}@-moz-keyframes fadeWidthw1 {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:164px
+}
+}@-webkit-keyframes fadeWidthw1 {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:164px
+}
+}@-o-keyframes fadeWidthw1 {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:164px
+}
+}.swiper-role-box .swiper-slide-active .con .bg_line2.fadeInUpa .bl2 {
+	-webkit-animation:fadeWidthw2 1.5s 1s both;
+	animation:fadeWidthw2 1.5s 1s both
+}
+@keyframes fadeWidthw2 {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:73px
+}
+}@-moz-keyframes fadeWidthw2 {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:73px
+}
+}@-webkit-keyframes fadeWidthw2 {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:73px
+}
+}@-o-keyframes fadeWidthw2 {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:73px
+}
+}.swiper-role-box .swiper-slide-active .con .bg_line2.fadeInUpa .bl3 {
+	-webkit-animation:fadeHeightw1 1.5s 1s both;
+	animation:fadeHeightw1 1.5s 1s both
+}
+@keyframes fadeHeightw1 {
+	from {
+	opacity:0;
+	height:0
+}
+to {
+	opacity:1;
+	height:58px
+}
+}@-moz-keyframes fadeHeightw1 {
+	from {
+	opacity:0;
+	height:0
+}
+to {
+	opacity:1;
+	height:58px
+}
+}@-webkit-keyframes fadeHeightw1 {
+	from {
+	opacity:0;
+	height:0
+}
+to {
+	opacity:1;
+	height:58px
+}
+}@-o-keyframes fadeHeightw1 {
+	from {
+	opacity:0;
+	height:0
+}
+to {
+	opacity:1;
+	height:58px
+}
+}.swiper-role-box .swiper-slide-active .con .bg_line2.fadeInUpa .bl4 {
+	-webkit-animation:fadeHeightw2 1.5s 1s both;
+	animation:fadeHeightw2 1.5s 1s both
+}
+@keyframes fadeHeightw2 {
+	from {
+	opacity:0;
+	height:0
+}
+to {
+	opacity:1;
+	height:24px
+}
+}@-moz-keyframes fadeHeightw2 {
+	from {
+	opacity:0;
+	height:0
+}
+to {
+	opacity:1;
+	height:24px
+}
+}@-webkit-keyframes fadeHeightw2 {
+	from {
+	opacity:0;
+	height:0
+}
+to {
+	opacity:1;
+	height:24px
+}
+}@-o-keyframes fadeHeightw2 {
+	from {
+	opacity:0;
+	height:0
+}
+to {
+	opacity:1;
+	height:24px
+}
+}.swiper-role-box .role_menu {
+	width:87px;
+	height:520px;
+	position:absolute;
+	top:168px;
+	left:0;
+	right:auto;
+	bottom:auto;
+	z-index:0;
+	margin:0 auto;
+	-webkit-animation:fadeIn 5s both;
+	animation:fadeIn 5s both;
+	z-index:2
+}
+.swiper-role-box .role_menu .role_swiper {
+	height:485px;
+	margin:42px 0;
+	overflow:hidden
+}
+.swiper-role-box .role_menu .swiper-slide-active span {
+	width:87px;
+	height:87px;
+	background:url("https://image.gaeamobile.net/image/20200605/103548/role_nav_active.png");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:87px 87px
+}
+.swiper-role-box .role_menu span {
+	display:block;
+	margin:0 auto;
+	width:87px;
+	height:87px;
+	cursor:pointer;
+	background:url("https://image.gaeamobile.net/image/20200605/103548/role_nav.png");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:87px 87px
+}
+.swiper-role-box .role_menu span img {
+	position:relative;
+	top:2px;
+	left:2px;
+	max-width:100%
+}
+.swiper-role-box .role_menu .swiper-button-prev,.swiper-role-box .role_menu .swiper-button-next {
+	width:26px;
+	height:26px;
+	margin:0 auto;
+	left:0;
+	right:0;
+	background:url("https://image.gaeamobile.net/image/20200605/103548/sprites_home1.png");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:1000px 600px;
+	background-position:-660px 0;
+	opacity:1
+}
+.swiper-role-box .role_menu .swiper-button-prev {
+	top:-18px
+}
+.swiper-role-box .role_menu .swiper-button-prev:hover {
+	background-position:-691px 0
+}
+.swiper-role-box .role_menu .swiper-button-next {
+	background-position:-723px 0;
+	top:555px
+}
+.swiper-role-box .role_menu .swiper-button-next:hover {
+	background-position:-756px 0
+}
+.s_3 {
+	position:relative;
+	height:1125px;
+	padding-top:55px
+}
+.s_3 .inner {
+	width:1292px
+}
+.s_3 .inner .title {
+	width:284px;
+	height:103px;
+	margin:0 auto;
+	background:url("https://image.gaeamobile.net/image/20200605/103548/sprites_home1.png");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:1000px 600px;
+	background-position:-636px -190px;
+	position:relative
+}
+.s_3 .inner .title::after {
+	display:block;
+	content:"";
+	width:20px;
+	height:20px;
+	margin:0 auto;
+	background:url("https://image.gaeamobile.net/image/20200605/103548/sprites_home1.png");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:1000px 600px;
+	background-position:-980px -107px;
+	position:absolute;
+	top:auto;
+	left:0;
+	right:0;
+	bottom:-30px;
+	z-index:0
+}
+.s_3 .inner .artlist {
+	width:1233px;
+	margin:86px auto 0;
+	position:relative;
+	z-index:1
+}
+.s_3 .inner .artlist::before {
+	display:block;
+	content:"";
+	width:148px;
+	height:53px;
+	margin:0 auto;
+	background:url("https://image.gaeamobile.net/image/20200605/103548/sprites_home1.png");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:1000px 600px;
+	background-position:-379px -453px;
+	position:absolute;
+	top:20px;
+	left:0;
+	right:0;
+	bottom:auto;
+	z-index:0
+}
+.s_3 .inner .artlist .more {
+	width:25px;
+	height:45px;
+	margin:26px auto 0;
+	position:relative
+}
+.s_3 .inner .artlist .more em {
+	display:block;
+	width:25px;
+	height:25px;
+	background:#1b1b1b
+}
+.s_3 .inner .artlist .more::before {
+	content:"";
+	position:absolute;
+	top:5px;
+	left:auto;
+	right:5px;
+	bottom:auto;
+	z-index:0;
+	width:15px;
+	height:15px;
+	margin:0 auto;
+	background:url("https://image.gaeamobile.net/image/20200605/103548/sprites_home1.png");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:1000px 600px;
+	background-position:-597px -5px;
+	-webkit-transition:all .6s;
+	-moz-transition:all .6s;
+	-o-transition:all .6s;
+	-ms-transition:all .6s;
+	transition:all .6s
+}
+.s_3 .inner .artlist .more::after {
+	content:"";
+	position:absolute;
+	top:32px;
+	left:auto;
+	right:-14px;
+	bottom:auto;
+	z-index:0;
+	width:51px;
+	height:12px;
+	margin:0 auto;
+	background:url("https://image.gaeamobile.net/image/20200605/103548/sprites_home1.png");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:1000px 600px;
+	background-position:-580px -32px
+}
+.s_3 .inner .artlist .more:hover::before {
+	-webkit-transform:rotate(180deg);
+	-moz-transform:rotate(180deg);
+	-o-transform:rotate(180deg);
+	-ms-transform:rotate(180deg);
+	transform:rotate(180deg)
+}
+.s_3 .inner .artlist li {
+	width:401px;
+	height:288px;
+	margin:0 14px 0 0;
+	display:block;
+	float:left;
+	position:relative;
+	cursor:pointer
+}
+.s_3 .inner .artlist li:nth-child(3n) {
+	margin-right:0
+}
+.s_3 .inner .artlist li:nth-child(2) {
+	margin-top:105px
+}
+.s_3 .inner .artlist li p {
+	width:401px;
+	height:226px;
+	overflow:hidden;
+	background:url("https://image.gaeamobile.net/image/20200605/103548/artist_box.png");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:401px 226px
+}
+.s_3 .inner .artlist li p img {
+	width:391px;
+	height:216px;
+	margin:5px 5px
+}
+.s_3 .inner .artlist li span {
+	display:block;
+	width:354px;
+	height:47px;
+	margin:13px auto 0;
+	border-top:1px solid #1b1b1b;
+	border-bottom:1px solid #1b1b1b;
+	text-align:center;
+	line-height:47px;
+	color:#000;
+	font-size:16px;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	font-family:"MFYueHei_Noncommercial-Regular"
+}
+.s_3 .inner .artlist li:hover span {
+	border-color:#ffb400;
+	color:#ffb400
+}
+.s_3 .inner .videoList {
+	width:1292px;
+	margin:130px auto 0;
+	position:relative
+}
+.s_3 .inner .videoList::before {
+	display:block;
+	content:"";
+	width:65px;
+	height:144px;
+	margin:0 auto;
+	background:url("https://image.gaeamobile.net/image/20200605/103548/sprites_home1.png");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:1000px 600px;
+	background-position:-556px -453px;
+	position:absolute;
+	top:-88px;
+	left:0;
+	right:0;
+	bottom:auto;
+	z-index:1
+}
+.s_3 .inner .videoList .more {
+	width:25px;
+	height:45px;
+	margin:12px auto 0;
+	position:relative
+}
+.s_3 .inner .videoList .more em {
+	display:block;
+	width:25px;
+	height:25px;
+	background:#1b1b1b
+}
+.s_3 .inner .videoList .more::before {
+	content:"";
+	position:absolute;
+	top:5px;
+	left:auto;
+	right:5px;
+	bottom:auto;
+	z-index:0;
+	width:15px;
+	height:15px;
+	margin:0 auto;
+	background:url("https://image.gaeamobile.net/image/20200605/103548/sprites_home1.png");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:1000px 600px;
+	background-position:-597px -5px;
+	-webkit-transition:all .6s;
+	-moz-transition:all .6s;
+	-o-transition:all .6s;
+	-ms-transition:all .6s;
+	transition:all .6s
+}
+.s_3 .inner .videoList .more::after {
+	content:"";
+	position:absolute;
+	top:32px;
+	left:auto;
+	right:-14px;
+	bottom:auto;
+	z-index:0;
+	width:51px;
+	height:12px;
+	margin:0 auto;
+	background:url("https://image.gaeamobile.net/image/20200605/103548/sprites_home1.png");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:1000px 600px;
+	background-position:-580px -32px
+}
+.s_3 .inner .videoList .more:hover::before {
+	-webkit-transform:rotate(180deg);
+	-moz-transform:rotate(180deg);
+	-o-transform:rotate(180deg);
+	-ms-transform:rotate(180deg);
+	transform:rotate(180deg)
+}
+.s_3 .inner .videoList li {
+	width:310px;
+	margin:0 17px 0 0;
+	display:block;
+	float:left;
+	position:relative;
+	cursor:pointer
+}
+.s_3 .inner .videoList li:nth-child(4n) {
+	margin-right:0
+}
+.s_3 .inner .videoList li p {
+	width:310px;
+	height:228px;
+	overflow:hidden;
+	background:url("https://image.gaeamobile.net/image/20200605/103548/video_box.png");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:310px 228px
+}
+.s_3 .inner .videoList li p img {
+	margin:6px 6px;
+	width:298px;
+	height:199px
+}
+.s_3 .inner .videoList li p::after {
+	content:"";
+	position:absolute;
+	top:6px;
+	left:auto;
+	right:6px;
+	bottom:auto;
+	z-index:0;
+	width:298px;
+	height:199px;
+	margin:0 auto;
+	background:rgba(0,0,0,0.5)
+}
+.s_3 .inner .videoList li .text {
+	display:block;
+	width:310px;
+	margin:0 auto;
+	text-align:center;
+	line-height:30px;
+	color:#090909;
+	font-size:16px;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis
+}
+.s_3 .inner .videoList li .btn_video {
+	cursor:pointer;
+	display:block;
+	width:52px;
+	height:52px;
+	margin:0 auto;
+	background:url("https://image.gaeamobile.net/image/20200605/103548/public.png");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:500px 500px;
+	background-position:-447px -56px;
+	position:absolute;
+	top:77px;
+	left:0;
+	right:0;
+	bottom:auto;
+	z-index:0
+}
+.s_3 .inner .videoList li:hover p::after {
+	background:rgba(113,85,255,0.3)
+}
+.s_3 .bg_line {
+	width:710px;
+	height:272px;
+	position:absolute;
+	top:85px;
+	left:-60px;
+	right:auto;
+	bottom:auto;
+	z-index:0
+}
+.s_3 .bg_line em {
+	display:block;
+	width:9px;
+	height:9px;
+	background:url("https://image.gaeamobile.net/image/20200605/103548/public.png");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:500px 500px;
+	background-position:-491px -118px;
+	position:absolute;
+	top:146px;
+	left:55px;
+	right:auto;
+	bottom:auto;
+	z-index:0
+}
+.s_3 .bg_line span {
+	background:#bababa
+}
+.s_3 .bg_line span.bl1 {
+	width:55px;
+	height:1px;
+	position:absolute;
+	top:150px;
+	left:auto;
+	right:656px;
+	bottom:auto;
+	z-index:0
+}
+.s_3 .bg_line span.bl2 {
+	width:635px;
+	height:1px;
+	position:absolute;
+	top:150px;
+	left:64px;
+	right:auto;
+	bottom:auto;
+	z-index:0
+}
+.s_3 .bg_line span.bl3 {
+	height:146px;
+	width:1px;
+	position:absolute;
+	top:auto;
+	left:59px;
+	right:auto;
+	bottom:126px;
+	z-index:0
+}
+.s_3 .bg_line span.bl4 {
+	height:161px;
+	width:1px;
+	position:absolute;
+	top:155px;
+	left:59px;
+	right:auto;
+	bottom:auto;
+	z-index:0
+}
+.s_3 .bg_line.fadeInUpa .bl1 {
+	-webkit-animation:fadeWidthb1 1.5s 1s both;
+	animation:fadeWidthb1 1.5s 1s both
+}
+@keyframes fadeWidthb1 {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:55px
+}
+}@-moz-keyframes fadeWidthb1 {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:55px
+}
+}@-webkit-keyframes fadeWidthb1 {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:55px
+}
+}@-o-keyframes fadeWidthb1 {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:55px
+}
+}.s_3 .bg_line.fadeInUpa .bl2 {
+	-webkit-animation:fadeWidthb2 1.5s 1s both;
+	animation:fadeWidthb2 1.5s 1s both
+}
+@keyframes fadeWidthb2 {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:635px
+}
+}@-moz-keyframes fadeWidthb2 {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:635px
+}
+}@-webkit-keyframes fadeWidthb2 {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:635px
+}
+}@-o-keyframes fadeWidthb2 {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:635px
+}
+}.s_3 .bg_line.fadeInUpa .bl3 {
+	-webkit-animation:fadeHeightb1 1.5s 1s both;
+	animation:fadeHeightb1 1.5s 1s both
+}
+@keyframes fadeHeightb1 {
+	from {
+	opacity:0;
+	height:0
+}
+to {
+	opacity:1;
+	height:146px
+}
+}@-moz-keyframes fadeHeightb1 {
+	from {
+	opacity:0;
+	height:0
+}
+to {
+	opacity:1;
+	height:146px
+}
+}@-webkit-keyframes fadeHeightb1 {
+	from {
+	opacity:0;
+	height:0
+}
+to {
+	opacity:1;
+	height:146px
+}
+}@-o-keyframes fadeHeightb1 {
+	from {
+	opacity:0;
+	height:0
+}
+to {
+	opacity:1;
+	height:146px
+}
+}.s_3 .bg_line.fadeInUpa .bl4 {
+	-webkit-animation:fadeHeightb2 1.5s 1s both;
+	animation:fadeHeightb2 1.5s 1s both
+}
+@keyframes fadeHeightb2 {
+	from {
+	opacity:0;
+	height:0
+}
+to {
+	opacity:1;
+	height:161px
+}
+}@-moz-keyframes fadeHeightb2 {
+	from {
+	opacity:0;
+	height:0
+}
+to {
+	opacity:1;
+	height:161px
+}
+}@-webkit-keyframes fadeHeightb2 {
+	from {
+	opacity:0;
+	height:0
+}
+to {
+	opacity:1;
+	height:161px
+}
+}@-o-keyframes fadeHeightb2 {
+	from {
+	opacity:0;
+	height:0
+}
+to {
+	opacity:1;
+	height:161px
+}
+}.s_3 .bg_line2 {
+	width:680px;
+	height:242px;
+	position:absolute;
+	top:174px;
+	left:auto;
+	right:-60px;
+	bottom:auto;
+	z-index:0
+}
+.s_3 .bg_line2 em {
+	display:block;
+	width:9px;
+	height:9px;
+	background:url("https://image.gaeamobile.net/image/20200605/103548/public.png");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:500px 500px;
+	background-position:-491px -118px;
+	position:absolute;
+	top:57px;
+	left:auto;
+	right:47px;
+	bottom:auto;
+	z-index:0
+}
+.s_3 .bg_line2 span {
+	background:#bababa
+}
+.s_3 .bg_line2 span.bl1 {
+	width:625px;
+	height:1px;
+	position:absolute;
+	top:61px;
+	left:auto;
+	right:57px;
+	bottom:auto;
+	z-index:0
+}
+.s_3 .bg_line2 span.bl2 {
+	width:46px;
+	height:1px;
+	position:absolute;
+	top:61px;
+	left:633px;
+	right:auto;
+	bottom:auto;
+	z-index:0
+}
+.s_3 .bg_line2 span.bl3 {
+	height:57px;
+	width:1px;
+	position:absolute;
+	top:auto;
+	left:auto;
+	right:51px;
+	bottom:185px;
+	z-index:0
+}
+.s_3 .bg_line2 span.bl4 {
+	height:176px;
+	width:1px;
+	position:absolute;
+	top:66px;
+	left:auto;
+	right:51px;
+	bottom:auto;
+	z-index:0
+}
+.s_3 .bg_line2.fadeInUpa .bl1 {
+	-webkit-animation:fadeWidthd1 1.5s 1s both;
+	animation:fadeWidthd1 1.5s 1s both
+}
+@keyframes fadeWidthd1 {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:625px
+}
+}@-moz-keyframes fadeWidthd1 {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:625px
+}
+}@-webkit-keyframes fadeWidthd1 {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:625px
+}
+}@-o-keyframes fadeWidthd1 {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:625px
+}
+}.s_3 .bg_line2.fadeInUpa .bl2 {
+	-webkit-animation:fadeWidthd2 1.5s 1s both;
+	animation:fadeWidthd2 1.5s 1s both
+}
+@keyframes fadeWidthd2 {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:46px
+}
+}@-moz-keyframes fadeWidthd2 {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:46px
+}
+}@-webkit-keyframes fadeWidthd2 {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:46px
+}
+}@-o-keyframes fadeWidthd2 {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:46px
+}
+}.s_3 .bg_line2.fadeInUpa .bl3 {
+	-webkit-animation:fadeHeightd1 1.5s 1s both;
+	animation:fadeHeightd1 1.5s 1s both
+}
+@keyframes fadeHeightd1 {
+	from {
+	opacity:0;
+	height:0
+}
+to {
+	opacity:1;
+	height:57px
+}
+}@-moz-keyframes fadeHeightd1 {
+	from {
+	opacity:0;
+	height:0
+}
+to {
+	opacity:1;
+	height:57px
+}
+}@-webkit-keyframes fadeHeightd1 {
+	from {
+	opacity:0;
+	height:0
+}
+to {
+	opacity:1;
+	height:57px
+}
+}@-o-keyframes fadeHeightd1 {
+	from {
+	opacity:0;
+	height:0
+}
+to {
+	opacity:1;
+	height:57px
+}
+}.s_3 .bg_line2.fadeInUpa .bl4 {
+	-webkit-animation:fadeHeightd2 1.5s 1s both;
+	animation:fadeHeightd2 1.5s 1s both
+}
+@keyframes fadeHeightd2 {
+	from {
+	opacity:0;
+	height:0
+}
+to {
+	opacity:1;
+	height:176px
+}
+}@-moz-keyframes fadeHeightd2 {
+	from {
+	opacity:0;
+	height:0
+}
+to {
+	opacity:1;
+	height:176px
+}
+}@-webkit-keyframes fadeHeightd2 {
+	from {
+	opacity:0;
+	height:0
+}
+to {
+	opacity:1;
+	height:176px
+}
+}@-o-keyframes fadeHeightd2 {
+	from {
+	opacity:0;
+	height:0
+}
+to {
+	opacity:1;
+	height:176px
+}
+}.s_4 {
+	height:1437px
+}
+.s_4 .title {
+	width:284px;
+	height:103px;
+	margin:55px auto 0;
+	background:url("https://image.gaeamobile.net/image/20200605/103548/sprites_home1.png");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:1000px 600px;
+	background-position:-374px -316px;
+	position:relative
+}
+.s_4 .title::after {
+	display:block;
+	content:"";
+	width:20px;
+	height:20px;
+	margin:0 auto;
+	background:url("https://image.gaeamobile.net/image/20200605/103548/sprites_home1.png");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:1000px 600px;
+	background-position:-980px -107px;
+	position:absolute;
+	top:auto;
+	left:0;
+	right:0;
+	bottom:-30px;
+	z-index:0
+}
+.s_4 .contact {
+	position:relative;
+	width:100%;
+	height:100%
+}
+.s_4 .bg_line {
+	width:280px;
+	height:272px;
+	position:absolute;
+	top:125px;
+	left:30px;
+	right:auto;
+	bottom:auto;
+	z-index:0
+}
+.s_4 .bg_line em {
+	display:block;
+	width:9px;
+	height:9px;
+	background:url("https://image.gaeamobile.net/image/20200605/103548/public.png");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:500px 500px;
+	background-position:-491px -118px;
+	position:absolute;
+	top:54px;
+	left:62px;
+	right:auto;
+	bottom:auto;
+	z-index:0
+}
+.s_4 .bg_line span {
+	background:#bababa
+}
+.s_4 .bg_line span.bl1 {
+	width:62px;
+	height:1px;
+	position:absolute;
+	top:58px;
+	left:auto;
+	right:220px;
+	bottom:auto;
+	z-index:0
+}
+.s_4 .bg_line span.bl2 {
+	width:210px;
+	height:1px;
+	position:absolute;
+	top:58px;
+	left:72px;
+	right:auto;
+	bottom:auto;
+	z-index:0
+}
+.s_4 .bg_line span.bl3 {
+	height:53px;
+	width:1px;
+	position:absolute;
+	top:auto;
+	left:66px;
+	right:auto;
+	bottom:217px;
+	z-index:0
+}
+.s_4 .bg_line span.bl4 {
+	height:208px;
+	width:1px;
+	position:absolute;
+	top:63px;
+	left:66px;
+	right:auto;
+	bottom:auto;
+	z-index:0
+}
+.s_4 .bg_line.fadeInUpa .bl1 {
+	-webkit-animation:fadeWidthe1 1.5s 1s both;
+	animation:fadeWidthe1 1.5s 1s both
+}
+@keyframes fadeWidthe1 {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:62px
+}
+}@-moz-keyframes fadeWidthe1 {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:62px
+}
+}@-webkit-keyframes fadeWidthe1 {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:62px
+}
+}@-o-keyframes fadeWidthe1 {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:62px
+}
+}.s_4 .bg_line.fadeInUpa .bl2 {
+	-webkit-animation:fadeWidthe2 1.5s 1s both;
+	animation:fadeWidthe2 1.5s 1s both
+}
+@keyframes fadeWidthe2 {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:210px
+}
+}@-moz-keyframes fadeWidthe2 {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:210px
+}
+}@-webkit-keyframes fadeWidthe2 {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:210px
+}
+}@-o-keyframes fadeWidthe2 {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:210px
+}
+}.s_4 .bg_line.fadeInUpa .bl3 {
+	-webkit-animation:fadeHeighte1 1.5s 1s both;
+	animation:fadeHeighte1 1.5s 1s both
+}
+@keyframes fadeHeighte1 {
+	from {
+	opacity:0;
+	height:0
+}
+to {
+	opacity:1;
+	height:53px
+}
+}@-moz-keyframes fadeHeighte1 {
+	from {
+	opacity:0;
+	height:0
+}
+to {
+	opacity:1;
+	height:53px
+}
+}@-webkit-keyframes fadeHeighte1 {
+	from {
+	opacity:0;
+	height:0
+}
+to {
+	opacity:1;
+	height:53px
+}
+}@-o-keyframes fadeHeighte1 {
+	from {
+	opacity:0;
+	height:0
+}
+to {
+	opacity:1;
+	height:53px
+}
+}.s_4 .bg_line.fadeInUpa .bl4 {
+	-webkit-animation:fadeHeighte2 1.5s 1s both;
+	animation:fadeHeighte2 1.5s 1s both
+}
+@keyframes fadeHeighte2 {
+	from {
+	opacity:0;
+	height:0
+}
+to {
+	opacity:1;
+	height:208px
+}
+}@-moz-keyframes fadeHeighte2 {
+	from {
+	opacity:0;
+	height:0
+}
+to {
+	opacity:1;
+	height:208px
+}
+}@-webkit-keyframes fadeHeighte2 {
+	from {
+	opacity:0;
+	height:0
+}
+to {
+	opacity:1;
+	height:208px
+}
+}@-o-keyframes fadeHeighte2 {
+	from {
+	opacity:0;
+	height:0
+}
+to {
+	opacity:1;
+	height:208px
+}
+}.s_4 .bg_line2 {
+	width:188px;
+	height:332px;
+	position:absolute;
+	top:527px;
+	left:auto;
+	right:37px;
+	bottom:auto;
+	z-index:0
+}
+.s_4 .bg_line2 em {
+	display:block;
+	width:9px;
+	height:9px;
+	background:url("https://image.gaeamobile.net/image/20200605/103548/public.png");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:500px 500px;
+	background-position:-491px -118px;
+	position:absolute;
+	top:266px;
+	left:auto;
+	right:56px;
+	bottom:auto;
+	z-index:0
+}
+.s_4 .bg_line2 span {
+	background:#bababa
+}
+.s_4 .bg_line2 span.bl1 {
+	width:122px;
+	height:1px;
+	position:absolute;
+	top:270px;
+	left:auto;
+	right:65px;
+	bottom:auto;
+	z-index:0
+}
+.s_4 .bg_line2 span.bl2 {
+	width:56px;
+	height:1px;
+	position:absolute;
+	top:270px;
+	left:132px;
+	right:auto;
+	bottom:auto;
+	z-index:0
+}
+.s_4 .bg_line2 span.bl3 {
+	height:266px;
+	width:1px;
+	position:absolute;
+	top:auto;
+	left:auto;
+	right:60px;
+	bottom:66px;
+	z-index:0
+}
+.s_4 .bg_line2 span.bl4 {
+	height:57px;
+	width:1px;
+	position:absolute;
+	top:275px;
+	left:auto;
+	right:60px;
+	bottom:auto;
+	z-index:0
+}
+.s_4 .bg_line2.fadeInUpa .bl1 {
+	-webkit-animation:fadeWidthf1 1.5s 1s both;
+	animation:fadeWidthf1 1.5s 1s both
+}
+@keyframes fadeWidthf1 {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:122px
+}
+}@-moz-keyframes fadeWidthf1 {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:122px
+}
+}@-webkit-keyframes fadeWidthf1 {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:122px
+}
+}@-o-keyframes fadeWidthf1 {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:122px
+}
+}.s_4 .bg_line2.fadeInUpa .bl2 {
+	-webkit-animation:fadeWidthf2 1.5s 1s both;
+	animation:fadeWidthf2 1.5s 1s both
+}
+@keyframes fadeWidthf2 {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:56px
+}
+}@-moz-keyframes fadeWidthf2 {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:56px
+}
+}@-webkit-keyframes fadeWidthf2 {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:56px
+}
+}@-o-keyframes fadeWidthf2 {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:56px
+}
+}.s_4 .bg_line2.fadeInUpa .bl3 {
+	-webkit-animation:fadeHeightf1 1.5s 1s both;
+	animation:fadeHeightf1 1.5s 1s both
+}
+@keyframes fadeHeightf1 {
+	from {
+	opacity:0;
+	height:0
+}
+to {
+	opacity:1;
+	height:266px
+}
+}@-moz-keyframes fadeHeightf1 {
+	from {
+	opacity:0;
+	height:0
+}
+to {
+	opacity:1;
+	height:266px
+}
+}@-webkit-keyframes fadeHeightf1 {
+	from {
+	opacity:0;
+	height:0
+}
+to {
+	opacity:1;
+	height:266px
+}
+}@-o-keyframes fadeHeightf1 {
+	from {
+	opacity:0;
+	height:0
+}
+to {
+	opacity:1;
+	height:266px
+}
+}.s_4 .bg_line2.fadeInUpa .bl4 {
+	-webkit-animation:fadeHeightf2 1.5s 1s both;
+	animation:fadeHeightf2 1.5s 1s both
+}
+@keyframes fadeHeightf2 {
+	from {
+	opacity:0;
+	height:0
+}
+to {
+	opacity:1;
+	height:57px
+}
+}@-moz-keyframes fadeHeightf2 {
+	from {
+	opacity:0;
+	height:0
+}
+to {
+	opacity:1;
+	height:57px
+}
+}@-webkit-keyframes fadeHeightf2 {
+	from {
+	opacity:0;
+	height:0
+}
+to {
+	opacity:1;
+	height:57px
+}
+}@-o-keyframes fadeHeightf2 {
+	from {
+	opacity:0;
+	height:0
+}
+to {
+	opacity:1;
+	height:57px
+}
+}.s_4 .bg_line3 {
+	width:0;
+	height:1px;
+	background:#bababa;
+	position:absolute;
+	top:186px;
+	left:auto;
+	right:1022px;
+	bottom:auto;
+	z-index:0
+}
+.s_4 .bg_line3.fadeInUpa {
+	-webkit-animation:fadeWidthg1 1.5s 1s both;
+	animation:fadeWidthg1 1.5s 1s both
+}
+@keyframes fadeWidthg1 {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:555px
+}
+}@-moz-keyframes fadeWidthg1 {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:555px
+}
+}@-webkit-keyframes fadeWidthg1 {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:555px
+}
+}@-o-keyframes fadeWidthg1 {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:555px
+}
+}.s_4 .bg_line4 {
+	width:0;
+	height:1px;
+	background:#bababa;
+	position:absolute;
+	top:186px;
+	left:1018px;
+	right:auto;
+	bottom:0;
+	z-index:0
+}
+.s_4 .bg_line4.fadeInUpa {
+	-webkit-animation:fadeWidthg2 1.5s 1s both;
+	animation:fadeWidthg2 1.5s 1s both
+}
+@keyframes fadeWidthg2 {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:555px
+}
+}@-moz-keyframes fadeWidthg2 {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:555px
+}
+}@-webkit-keyframes fadeWidthg2 {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:555px
+}
+}@-o-keyframes fadeWidthg2 {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:555px
+}
+}.s_4 .bg_line5 {
+	width:0;
+	height:1px;
+	background:#bababa;
+	position:absolute;
+	top:186px;
+	left:auto;
+	right:742px;
+	bottom:auto;
+	z-index:0
+}
+.s_4 .bg_line5.fadeInUpa {
+	-webkit-animation:fadeWidthg3 1s 1s both;
+	animation:fadeWidthg3 1s 1s both
+}
+@keyframes fadeWidthg3 {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:13px
+}
+}@-moz-keyframes fadeWidthg3 {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:13px
+}
+}@-webkit-keyframes fadeWidthg3 {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:13px
+}
+}@-o-keyframes fadeWidthg3 {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:13px
+}
+}.s_4 .bg_line6 {
+	width:0;
+	height:1px;
+	background:#bababa;
+	position:absolute;
+	top:186px;
+	left:458px;
+	right:auto;
+	bottom:auto;
+	z-index:0
+}
+.s_4 .bg_line6.fadeInUpa {
+	-webkit-animation:fadeWidthg4 1s 1s both;
+	animation:fadeWidthg4 1s 1s both
+}
+@keyframes fadeWidthg4 {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:14px
+}
+}@-moz-keyframes fadeWidthg4 {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:14px
+}
+}@-webkit-keyframes fadeWidthg4 {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:14px
+}
+}@-o-keyframes fadeWidthg4 {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:14px
+}
+}.s_4 .bg_line7 {
+	width:0;
+	height:1px;
+	background:#bababa;
+	position:absolute;
+	top:186px;
+	left:auto;
+	right:463px;
+	bottom:auto;
+	z-index:0
+}
+.s_4 .bg_line7.fadeInUpa {
+	-webkit-animation:fadeWidthg5 1s 1s both;
+	animation:fadeWidthg5 1s 1s both
+}
+@keyframes fadeWidthg5 {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:13px
+}
+}@-moz-keyframes fadeWidthg5 {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:13px
+}
+}@-webkit-keyframes fadeWidthg5 {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:13px
+}
+}@-o-keyframes fadeWidthg5 {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:13px
+}
+}.s_4 .bg_line8 {
+	width:0;
+	height:1px;
+	background:#bababa;
+	position:absolute;
+	top:186px;
+	left:737px;
+	right:auto;
+	bottom:auto;
+	z-index:0
+}
+.s_4 .bg_line8.fadeInUpa {
+	-webkit-animation:fadeWidthg6 1s 1s both;
+	animation:fadeWidthg6 1s 1s both
+}
+@keyframes fadeWidthg6 {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:16px
+}
+}@-moz-keyframes fadeWidthg6 {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:16px
+}
+}@-webkit-keyframes fadeWidthg6 {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:16px
+}
+}@-o-keyframes fadeWidthg6 {
+	from {
+	opacity:0;
+	width:0
+}
+to {
+	opacity:1;
+	width:16px
+}
+}.swiper-feature-box {
+	width:1088px;
+	height:521px;
+	margin:104px auto 0;
+	position:relative
+}
+.swiper-feature-box .swiper-feature {
+	width:1088px;
+	height:521px;
+	margin:0 auto 0;
+	overflow:hidden;
+	background:url("https://image.gaeamobile.net/image/20200605/103548/bg_feature.png");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:1088px 521px
+}
+.swiper-feature-box .swiper-feature .swiper-slide {
+	position:relative
+}
+.swiper-feature-box .swiper-feature .swiper-slide .box_img {
+	position:absolute;
+	top:80px;
+	left:50%;
+	right:auto;
+	bottom:0;
+	z-index:0;
+	width:675px;
+	height:369px;
+	padding:15px;
+	-webkit-transform:translateX(-50%);
+	-moz-transform:translateX(-50%);
+	-o-transform:translateX(-50%);
+	-ms-transform:translateX(-50%);
+	transform:translateX(-50%)
+}
+.swiper-feature-box .swiper-feature .swiper-slide .box_img>div {
+	position:relative;
+	width:100%;
+	height:100%;
+	padding:5px;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	background:#fff;
+	border:1px solid #1b1b1b;
+	-webkit-transform:translate(-7px,-7px);
+	-moz-transform:translate(-7px,-7px);
+	-o-transform:translate(-7px,-7px);
+	-ms-transform:translate(-7px,-7px);
+	transform:translate(-7px,-7px)
+}
+.swiper-feature-box .swiper-feature .swiper-slide .box_img img {
+	display:block;
+	width:100%;
+	height:100%;
+	visibility:hidden
+}
+.swiper-feature-box .swiper-feature .swiper-slide.swiper-slide-active .box_img {
+	top:0;
+	width:900px;
+	height:500px;
+	padding:10px 10px;
+	display:block
+}
+.swiper-feature-box .swiper-feature .swiper-slide.swiper-slide-active .box_img img {
+	visibility:visible
+}
+.swiper-feature-box .swiper-pagination-bullet {
+	background:#000;
+	border-radius:0;
+	width:10px;
+	height:10px;
+	opacity:1;
+	margin-right:10px
+}
+.swiper-feature-box .swiper-pagination-bullet.swiper-pagination-bullet-active {
+	background:#ffb400
+}
+.swiper-feature-box .swiper-pagination {
+	left:0;
+	right:0;
+	bottom:-28px
+}
+.swiper-feature-box .swiper-button-prev {
+	position:absolute;
+	top:250px;
+	left:-15px;
+	right:auto;
+	bottom:auto;
+	z-index:0;
+	width:30px;
+	height:25px;
+	margin:auto 0;
+	background:url("https://image.gaeamobile.net/image/20200605/103548/sprites_home1.png");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:1000px 600px;
+	background-position:-579px -70px
+}
+.swiper-feature-box .swiper-button-prev:hover {
+	background-position:-615px -70px
+}
+.swiper-feature-box .swiper-button-prev:after {
+	display:block;
+	content:"";
+	width:100px;
+	height:1px;
+	background:#1c1c1c;
+	position:absolute;
+	top:11px;
+	left:-105px;
+	right:auto;
+	bottom:auto;
+	z-index:0
+}
+.swiper-feature-box .swiper-button-next {
+	position:absolute;
+	top:250px;
+	left:auto;
+	right:-15px;
+	bottom:auto;
+	z-index:0;
+	width:30px;
+	height:25px;
+	margin:auto 0;
+	background:url("https://image.gaeamobile.net/image/20200605/103548/sprites_home1.png");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:1000px 600px;
+	background-position:-652px -70px
+}
+.swiper-feature-box .swiper-button-next:hover {
+	background-position:-688px -70px
+}
+.swiper-feature-box .swiper-button-next:after {
+	display:block;
+	content:"";
+	width:100px;
+	height:1px;
+	background:#1c1c1c;
+	position:absolute;
+	top:11px;
+	left:auto;
+	right:-105px;
+	bottom:auto;
+	z-index:0
+}
+.swiper-feature-box .swiper-feature-num {
+	width:100px;
+	height:27px;
+	background:#000;
+	letter-spacing:3px;
+	text-align:center;
+	line-height:27px;
+	color:#fff;
+	font-size:20px;
+	position:absolute;
+	top:407px;
+	left:35px;
+	right:auto;
+	bottom:auto;
+	z-index:0;
+	font-family:"MFYueHei_Noncommercial-Regular"
+}
+.contact_list {
+	/* width:840px; */
+    width: 100%;
+	margin:130px auto 0
+}
+.contact_list li {
+	display:block;
+	float:left;
+	width:228px;
+	height:331px;
+	margin:0 26px
+}
+.contact_list li em {
+	display:block;
+	margin:0 auto 15px;
+	width:164px;
+	height:40px;
+	background:url("https://image.gaeamobile.net/image/20200605/103548/public.png");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:500px 500px;
+	font-size:0
+}
+.contact_list li p {
+	width:228px;
+	height:276px;
+	background:url("https://image.gaeamobile.net/image/20200605/103548/contact_box.png");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:228px 276px;
+	margin:0 auto
+}
+.contact_list li p img {
+	width:193px;
+	height:193px;
+	padding:17px 17px
+}
+.contact_list li p span {
+	display:block;
+	margin-top:16px;
+	text-align:center;
+	line-height:31px;
+	color:#000;
+	font-size:16px;
+	font-family:"MFYueHei_Noncommercial-Regular"
+}
+.contact_list li:nth-child(1) em {
+	background-position:0 -202px
+}
+.contact_list li:nth-child(2) em {
+	background-position:0 -259px
+}
+.contact_list li:nth-child(3) em {
+	background-position:0 -317px
+}
+.contact_list li:nth-child(4) em {
+	background:url("http://local.static.com/aotu/image/wxqrcodetitle.png");
+	background-repeat:no-repeat;
+	background-position:center;
+}
+@keyframes rotate {
+	from {
+	transform:rotate(0)
+}
+to {
+	transform:rotate(360deg)
+}
+}@-moz-keyframes rotate {
+	from {
+	transform:rotate(0)
+}
+to {
+	transform:rotate(360deg)
+}
+}@-webkit-keyframes rotate {
+	from {
+	transform:rotate(0)
+}
+to {
+	transform:rotate(360deg)
+}
+}@-o-keyframes rotate {
+	from {
+	transform:rotate(0)
+}
+to {
+	transform:rotate(360deg)
+}
+}@keyframes fbrotate {
+	from {
+	transform:rotate(0)
+}
+to {
+	transform:rotate(-360deg)
+}
+}@-moz-keyframes fbrotate {
+	from {
+	transform:rotate(0)
+}
+to {
+	transform:rotate(-360deg)
+}
+}@-webkit-keyframes fbrotate {
+	from {
+	transform:rotate(0)
+}
+to {
+	transform:rotate(-360deg)
+}
+}@-o-keyframes fbrotate {
+	from {
+	transform:rotate(0)
+}
+to {
+	transform:rotate(-360deg)
+}
+}

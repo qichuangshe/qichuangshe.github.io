@@ -1,0 +1,24 @@
+.age16 {
+    width: 1rem;
+    height: 1.3rem;
+    background: url('https://image.gaeamobile.net/image/20210617/110652/16.png');
+    position: absolute;
+    top: 700px;
+    left: 200px;
+    cursor: pointer;
+}
+#age_popup .popup_box {
+    width: 1073px;
+    height: 721px;
+    background: url("https://image.gaeamobile.net/image/20210617/110652/16pop.png");
+}
+#age_popup .popup_box  .close {
+    left: auto;
+    top: 78px;
+    right: 0;
+    background: none;
+    width: 60px;
+}
+#age_popup .popup_box img{
+    margin: 196px 0 0 157px;
+}
